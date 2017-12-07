@@ -1,0 +1,6 @@
+class CreateTeamsCompetitions < ActiveRecord::Migration[5.1]
+  def change
+    create_table :teams_competitions do |t|
+    end
+  end
+end
